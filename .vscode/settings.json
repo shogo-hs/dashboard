@@ -1,0 +1,15 @@
+{
+    /* Ruff for python */
+    "ruff.lint.enable": true,
+    "ruff.lint.args": [
+        "--config=pyproject.toml"
+    ],
+    "ruff.importStrategy": "fromEnvironment",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    },
+}
