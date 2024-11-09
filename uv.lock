@@ -243,7 +243,6 @@ name = "dashboard-app"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
-    { name = "pandas" },
     { name = "pygwalker" },
     { name = "streamlit" },
 ]
@@ -258,7 +257,6 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "pandas", specifier = ">=2.2.3" },
     { name = "pygwalker", specifier = ">=0.4.9.13" },
     { name = "streamlit", specifier = ">=1.39.0" },
 ]
