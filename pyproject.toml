@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "pandas>=2.2.3",
     "pygwalker>=0.4.9.13",
     "streamlit>=1.39.0",
 ]
